@@ -97,7 +97,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 10px;
   transition: all 0.9s;
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 .header-title:hover {
@@ -173,7 +173,7 @@ p {
 }
 
 .home-image {
-  width: 40rem;
+  width: 35rem;
 }
 
 .home-links,
