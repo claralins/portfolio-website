@@ -26,7 +26,7 @@ export const PROJECTS = [
     longDescription:
       "Sed congue at dui egestas molestie. In pellentesque sollicitudin mauris. Etiam viverra sodales metus ac ornare.",
 
-    image: "../images/yoga.jpg",
+    image: "",
   },
     {
     id: 3,
@@ -37,6 +37,6 @@ export const PROJECTS = [
     longDescription:
       "Sed congue at dui egestas molestie. In pellentesque sollicitudin mauris. Etiam viverra sodales metus ac ornare.",
 
-    image: "../images/yoga.jpg",
+    image: "",
   },
 ];
