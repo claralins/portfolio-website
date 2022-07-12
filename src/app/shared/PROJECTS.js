@@ -28,4 +28,15 @@ export const PROJECTS = [
 
     image: "../images/yoga.jpg",
   },
+    {
+    id: 3,
+    name: "Medicine reminder",
+    tech: ["React", "CSS", "Express", "MongoDB", "Node"],
+    description:
+      "Work in progress: this app shows both frontend and backend skills, working as a simple daily reminder of medicine to take.",
+    longDescription:
+      "Sed congue at dui egestas molestie. In pellentesque sollicitudin mauris. Etiam viverra sodales metus ac ornare.",
+
+    image: "../images/yoga.jpg",
+  },
 ];
