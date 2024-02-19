@@ -1,8 +1,8 @@
-import { Badge } from "reactstrap";
+// import { Badge } from 'reactstrap';
 
 const DisplayTechList = ({ item }) => {
   const { tech } = item;
-  return <Badge>{tech}</Badge>;
+  return <p className="badge">{tech}</p>;
 };
 
 export default DisplayTechList;

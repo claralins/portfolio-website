@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Technologies from "../components/Technologies";
-import { animated, useSpring } from "react-spring";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Technologies from '../components/Technologies';
+import { animated, useSpring } from 'react-spring';
 
 const About = () => {
   const animatedStyle = useSpring({
@@ -40,21 +40,21 @@ const About = () => {
             <h2 className="section-title">Education & training</h2>
 
             <p>
-              Full-Stack Web + Mobile Developement Bootcamp | Nucamp{" "}
-              <span style={{ color: "#efbdb8" }}>2022</span>
+              Full-Stack Web + Mobile Developement Bootcamp | Nucamp{' '}
+              <span style={{ color: '#efbdb8' }}>2022</span>
             </p>
             <p>
-              AWS Cloud Practitioner | Amazon{" "}
-              <span style={{ color: "#efbdb8" }}>2022</span>
+              AWS Cloud Practitioner | Amazon{' '}
+              <span style={{ color: '#efbdb8' }}>2022</span>
             </p>
 
             <p>
-              Code In Place | Stanford University{" "}
-              <span style={{ color: "#efbdb8" }}>2021</span>
+              Code In Place | Stanford University{' '}
+              <span style={{ color: '#efbdb8' }}>2021</span>
             </p>
             <p>
               Bachelor's Degree, International Relations | Federal University of
-              the ABC Area <span style={{ color: "#efbdb8" }}>2018</span>
+              the ABC Area <span style={{ color: '#efbdb8' }}>2018</span>
             </p>
           </Col>
         </Row>
@@ -69,11 +69,15 @@ const About = () => {
               to learn how to code. Stanford's Code In Place, an introductory
               Python course, was my first contact with programming. A bootcamp
               followed, and ever since I've been immersed in learning and
-              creating web and mobile apps, like the ones you see{" "}
+              creating web and mobile apps, like the ones you see{' '}
               <a className="inline-link" href="/projects">
                 here
               </a>
               .
+            </p>
+            <p>
+              I soon realized that Design was what drawn me the most, and in
+              2023 I enrolled in DesignLab's top program.
             </p>
             <p>
               Past experiences include work in the financial field in São Paulo,

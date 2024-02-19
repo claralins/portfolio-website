@@ -1,5 +1,5 @@
-import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -31,16 +31,14 @@ const Footer = () => {
             </ul>
           </Col>
           <Col>
-            <p style={{ color: "#e3e3e3", fontSize: "15px" }}>
-              2022 &copy; Clara Lins
-            </p>
-            <p style={{ color: "#e3e3e3", fontSize: "15px" }}>
+            <p style={{ fontSize: '15px' }}>2023 &copy; Clara Lins</p>
+            <p style={{ fontSize: '15px' }}>
               All illustrations from
               <a
                 href="https://www.uistore.design/items/loomies-free-illustration/"
                 className="inline-link"
               >
-                {" "}
+                {' '}
                 GetIllustrations
               </a>
             </p>
