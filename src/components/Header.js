@@ -16,7 +16,7 @@ const Header = () => {
                 Home
               </NavLink>
             </NavItem>
-            <NavItem className="nav-item" href="/">
+            <NavItem className="nav-item" to="/projects">
               <NavLink
                 className={(isActive) =>
                   'nav-link' + (!isActive ? ' unselected' : '')

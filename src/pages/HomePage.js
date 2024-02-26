@@ -25,10 +25,10 @@ const Home = () => {
           </Col>
           <Col className="col-4">
             <Link to="/" className="main-link">
-              <h1 className=" header-title">Hey, I'm Clara</h1>
+              <h1 className="header-title">I'm Clara</h1>
             </Link>
-            <h2 className=" header-description">
-              Aspiring Product Designer based in Sillicon Valley. Currently
+            <h2 className="header-description">
+              Product Designer based in Sillicon Valley. <br></br>Currently
               enrolled in DesignLab.
             </h2>
           </Col>
@@ -46,10 +46,10 @@ const Home = () => {
       <Container>{/* <ProjectsList /> */}</Container>
       <Container className="about-container container">
         <Row className="about-row">
-          <Col className="about-tech">
+          {/* <Col className="about-tech">
             <h2 className="section-title">I'm confident with</h2>
             <Technologies />
-          </Col>
+          </Col> */}
         </Row>
         <Row className="about-row">
           <Col className="about-background col-4">
@@ -78,7 +78,7 @@ const Home = () => {
 
             <p>
               UX & UI Design | DesignLab{' '}
-              <span style={{ fontWeight: 'bold' }}>2023</span>
+              <span style={{ fontWeight: 'bold' }}>2024</span>
             </p>
             <p>
               Full-Stack Web + Mobile Developement Bootcamp | Nucamp{' '}

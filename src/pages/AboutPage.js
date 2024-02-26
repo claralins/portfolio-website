@@ -15,10 +15,8 @@ const About = () => {
       <Container className="about-container container">
         <Row className="about-row">
           {/* <h2 className="section-title">The developer</h2> */}
-          <h3>
-            I'm a Frontend Developer based in Virginia, soon in California.
-          </h3>
-          <a href="/" className="link-styled" download>
+          <h3>I'm a Product Designer based in Silicon Valley.</h3>
+          {/* <a href="/" className="link-styled" download>
             Download resume ⟶
           </a>
 
@@ -27,14 +25,34 @@ const About = () => {
             className="link-styled"
           >
             View LinkedIn ⟶
-          </a>
+          </a> */}
         </Row>
-        <Row className="about-row">
+        {/* <Row className="about-row">
           <Col>
             <h2 className="section-title">Technologies</h2>
             <Technologies />
           </Col>
+        </Row> */}
+
+        <Row className="about-row">
+          <Col className="about-background">
+            <h2 className="section-title">Background</h2>
+            <p>
+              Born and raised in Brazil, I started university just short of 18
+              and earned a Bachelors degree in International Relations. After
+              traveling the world and exploring other possibilities, I decided
+              to learn how to code. Stanford's Code In Place, an introductory
+              Python course, was my first contact with programming. A bootcamp
+              followed, and ever since I've been immersed in learning and
+              creating web and mobile apps, like the ones you see{' '}
+              <a className="inline-link" href="/projects">
+                here
+              </a>
+              .
+            </p>
+          </Col>
         </Row>
+
         <Row className="about-row">
           <Col className="about-education">
             <h2 className="section-title">Education & training</h2>
@@ -55,38 +73,6 @@ const About = () => {
             <p>
               Bachelor's Degree, International Relations | Federal University of
               the ABC Area <span style={{ color: '#efbdb8' }}>2018</span>
-            </p>
-          </Col>
-        </Row>
-
-        <Row className="about-row">
-          <Col className="about-background">
-            <h2 className="section-title">Background</h2>
-            <p>
-              Born and raised in Brazil, I started university just short of 18
-              and earned a Bachelors degree in International Relations. After
-              traveling the world and exploring other possibilities, I decided
-              to learn how to code. Stanford's Code In Place, an introductory
-              Python course, was my first contact with programming. A bootcamp
-              followed, and ever since I've been immersed in learning and
-              creating web and mobile apps, like the ones you see{' '}
-              <a className="inline-link" href="/projects">
-                here
-              </a>
-              .
-            </p>
-            <p>
-              I soon realized that Design was what drawn me the most, and in
-              2023 I enrolled in DesignLab's top program.
-            </p>
-            <p>
-              Past experiences include work in the financial field in São Paulo,
-              managing the team's schedule through Scrum, conducting research
-              and creating relevant content for Investor Families. Additionally,
-              I had other roles that required excellent communication skills,
-              such as teaching English in Brazil and in Turkey, and working in a
-              travel agency, where I was mediating contact between the 100+
-              branch offices in Brazil and program providers in the US.
             </p>
           </Col>
         </Row>
