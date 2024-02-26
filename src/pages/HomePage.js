@@ -33,14 +33,14 @@ const Home = () => {
             </h2>
           </Col>
 
-          <Col className="home-links col-4">
+          {/* <Col className="home-links col-4">
             <Link to="/projects" className="link-styled">
               portfolio ⟶
             </Link>
             <Link to="/" className="link-styled">
               view my code on Github ⟶
             </Link>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <Container>{/* <ProjectsList /> */}</Container>
