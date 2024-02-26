@@ -25,7 +25,7 @@ const Home = () => {
           </Col>
           <Col className="col-4">
             <Link to="/" className="main-link">
-              <h1 className="header-title">I'm Clara</h1>
+              <h1 className="header-title">Clara Lins</h1>
             </Link>
             <h2 className="header-description">
               Product Designer based in Sillicon Valley. <br></br>Currently
