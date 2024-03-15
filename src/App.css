@@ -76,12 +76,21 @@ p {
 }
 
 .header-title {
+
   padding-top: 4rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   letter-spacing: 0.03em;
+
+  color: #ffdaf9;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  transition: all 0.9s;
+  padding-top: 4rem;
+
 }
 
 .header-title:hover {
