@@ -1,29 +1,13 @@
-import { useState } from "react";
-import {
-  Col,
-  Collapse,
-  Nav,
-  Navbar,
-  NavbarToggler,
-  NavItem,
-  Row,
-} from "reactstrap";
-import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { useState } from 'react';
+import { Collapse, Nav, Navbar, NavbarToggler, NavItem } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="header">
-      <Row className="row pt-5">
-        <Col>
-          <Link to="/" className="main-link">
-            <h1 className="text-center header-title">Clara Lins</h1>
-          </Link>
-          <h2 className="text-center header-description">Frontend Developer</h2>
-        </Col>
-      </Row>
       <Navbar sticky="top" expand="md" className="navbar" variant="bg-light">
+        {/* <img></img> */}
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
         <Collapse isOpen={menuOpen} navbar>
           <Nav navbar className="list-unstyled">
@@ -32,12 +16,12 @@ const Header = () => {
                 Home
               </NavLink>
             </NavItem>
-            <NavItem className="nav-item" href="/">
+            <NavItem className="nav-item" to="/projects">
               <NavLink
                 className={(isActive) =>
-                  "nav-link" + (!isActive ? " unselected" : "")
+                  'nav-link' + (!isActive ? ' unselected' : '')
                 }
-                to="/projects"
+                to="/"
               >
                 Portfolio
               </NavLink>
@@ -45,9 +29,9 @@ const Header = () => {
             <NavItem className="nav-item" href="/">
               <NavLink
                 className={(isActive) =>
-                  "nav-link" + (!isActive ? " unselected" : "")
+                  'nav-link' + (!isActive ? ' unselected' : '')
                 }
-                to="/contact"
+                to="/"
               >
                 Contact
               </NavLink>
@@ -55,9 +39,9 @@ const Header = () => {
             <NavItem className="nav-item">
               <NavLink
                 className={(isActive) =>
-                  "nav-link" + (!isActive ? " unselected" : "")
+                  'nav-link' + (!isActive ? ' unselected' : '')
                 }
-                to="/about"
+                to="/"
               >
                 About
               </NavLink>

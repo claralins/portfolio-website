@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import Header from "./Header";
-import HomePage from "../pages/HomePage";
-import AboutPage from "../pages/AboutPage";
-import ContactPage from "../pages/ContactPage";
-import Footer from "./Footer";
-import { Routes, Route } from "react-router-dom";
-import ProjectsPage from "../pages/ProjectsPage";
-import ProjectDetailPage from "../pages/ProjectDetailPage";
+import React, { Component } from 'react';
+import Header from './Header';
+import HomePage from '../pages/HomePage';
+import AboutPage from '../pages/AboutPage';
+import ContactPage from '../pages/ContactPage';
+import Footer from './Footer';
+import { Routes, Route } from 'react-router-dom';
+import ProjectsPage from '../pages/ProjectsPage';
+import ProjectDetailPage from '../pages/ProjectDetailPage';
 
 class Main extends Component {
   render() {
